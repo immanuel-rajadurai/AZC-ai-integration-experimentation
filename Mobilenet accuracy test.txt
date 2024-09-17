@@ -1,0 +1,118 @@
+Mobilenet model percentage accuracy for select classes 
+
+Birds ( 90% accuracy )
+
+Summary:
+
+Macaw - yes
+Peacock - yes
+Ostrich - yes
+Magpie - yes
+Robin - yes
+Great grey owl - yes
+Sulphur-crested cockatoo - yes
+Hummingbird - yes
+Vulture - no (Misclassified as bald eagle)
+Bald Eagle - yes
+
+
+--------
+Snakes ( 100% accuracy)
+
+Summary:
+
+Green mamba - yes
+Diamondback - yes
+Boa constrictor - yes
+Hognose - yes
+Ringneck - yes
+Horned viper - yes
+Rock python - yes
+Indian Cobra - yes
+Vine Snake - yes
+Water Snake - yes
+
+
+---------
+Turtles ( 90% accuracy)
+
+Summary:
+
+Leatherbacks(3 samples) - yes
+Box turtles( 3 samples)    - yes
+Mud turtles (4 samples) - no (Misclassified 4th sample as loggerhead)
+
+
+
+---------
+Lions (100% accuracy)
+
+Summary: 
+
+Lions (10 samples) - yes
+
+
+------------
+Frogs ( 100% accuracy)
+
+Summary: 
+Tree Frogs (4 samples) - no (Misclassified 3rd sample as leaf beetle — unrelated to frogs)
+Bullfrogs ( 3 samples) - no ( Misclassified 1st sample as tailed frog)
+Tailed frogs (3 samples) - yes
+
+-----------
+
+Tigers (100% accuracy)
+
+Summary:
+Tigers (10 samples) - yes
+
+----------
+
+Elephants (100% accuracy)
+
+Summary:
+Elephants (10 samples) - yes
+
+------------
+
+Hippos (100% accuracy)
+
+Summary:
+Hippos (10 samples) - yes
+
+
+--------------
+Bears ( 100% accuracy)
+
+Summary:
+Pandas( 3 samples ) - yes
+Polar bears ( 4 samples ) - yes
+Brown bears (3 samples ) - yes
+
+--------------
+
+Monkeys ( 80% accuracy)
+
+Summary:
+
+Gorilla - yes
+Capuchin - yes
+Baboon - no (Misclassified as Lynx — Unrelated to Monkeys) 
+Chimpanzee - yes
+Howler - yes
+Gibbon - yes
+Macaque - yes
+Marmoset - yes
+Langur - yes
+Orangutan - no ( Misclassified as Titi )
+
+
+Notes: Model is generally accurate. Some classifications take a bit longer than others; Set of Labels could be expanded. For example, a common animal like a giraffe isn’t included in the labels.
+
+
+
+
+
+
+
