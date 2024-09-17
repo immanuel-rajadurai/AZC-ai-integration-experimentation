@@ -6,7 +6,7 @@ import * as jpeg from 'jpeg-js';
 import * as FileSystem from 'expo-file-system';
 import { Asset } from 'expo-asset';
 import labels from './assets/labels.json'; 
-import peacock from './assets/peacock.jpg';
+import peacock from './assets/test_images/frog_images/treefrog4.jpeg';
 
 
 export default function App() {
